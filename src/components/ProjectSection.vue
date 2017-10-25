@@ -19,7 +19,7 @@ export default {
               server: 'https://github.com/Dkaf/craft-beer-judge-api',
             },
             tools: [
-              'Node.Js',
+              'Node.js',
               'Express',
               'React',
               'MongoDB',
@@ -31,7 +31,10 @@ export default {
               'Babel',
               'Webpack',
             ],
-            screenshot: {url: '#', alt: 'screenshot'},
+            screenshot: {
+              url: '#',
+              alt: 'Craft Beer Screenshot',
+            },
             description: `
             For the craft beer enthusiasts out there. Allows the user
             to search from a wideselection of craft beers,
@@ -49,7 +52,7 @@ export default {
               server: 'https://github.com/Dkaf/mtg_capstone',
             },
             tools: [
-              'Node.Js',
+              'Node.js',
               'Express',
               'React',
               'MongoDB',
@@ -58,13 +61,48 @@ export default {
             ],
             screenshot: {
               url: require('./../assets/deck_builder_deck_screenshot.png'),
-              alt: 'screenshot',
+              alt: 'Deck Builder Screenshot',
             },
             description: `
               Deck builder for the Magic: The Gathering card game.
               Allows users to create decks and add cards to them by
               searching the MTG API. The backend was built with Node.Js
               and Express. The frontend is made with React.
+            `,
+          },
+          {
+            title: 'Food Nutrition',
+            links: {
+              live: 'https://dkaf.github.io/food_nutrition/',
+              code: 'https://github.com/Dkaf/food_nutrition',
+              server: 'https://github.com/Dkaf/food_nutrition_server',
+            },
+            tools: [
+              'Node.js',
+              'Express',
+              'React',
+              'Redux',
+              'React-Router',
+              'Babel',
+              'Webpack',
+            ],
+            screenshot: {
+              url: require('./../assets/food_nutrition_quiz.png'),
+              alt: 'Food Nutrition Screenshot',
+            },
+            description: `
+              Type your recipe in the search bar and some 
+              similar recipes will show up. 
+              Select the recipe that's closest to yours 
+              and healtier options will be displayed. 
+              Just click a recipe that you're interested 
+              in to see the instructions. 
+              Select Nutrition Quiz in the top 
+              right corner to start the quiz. 
+              Two random recipes will be shown along 
+              with a question. 
+              Click the button assigned to what you 
+              believe to be the correct answer.
             `,
           },
         ],
