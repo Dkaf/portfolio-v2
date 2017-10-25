@@ -54,7 +54,7 @@ export default {
   }
 
   @media screen and (max-width:770px) {
-    .about-me, .info-container, .section-div {
+    .section-div {
       width: 100%;
     }
 
@@ -69,15 +69,15 @@ export default {
     }
 
     .subtitle {
-      font-size: 5rem;
+      font-size: 4.5rem;
     }
 
     .info-container {
       font-size: 1.3rem;
+      padding: 0 10px;
     }
 
     .info-container p {
-      width: 100%;
       padding: 30px 0;
     }
 
