@@ -82,14 +82,10 @@ export default {
   }
 
 
-  /* @media screen and (max-width: 770px) {
-    .project-section, .project-container {
-      width: 100%;
-    }
+  @media screen and (max-width: 770px) {
     .project-section {
-      flex-flow: column;
       align-items: center;
     }
-  } */
+  }
 </style>
 
