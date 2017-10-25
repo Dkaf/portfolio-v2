@@ -96,6 +96,27 @@
     .project-container:nth-of-type(even) {
       align-self: flex-end;
     }
+  }
+  @media screen and (max-width: 770px) {
+    .project-container {
+      align-items: center;
+    }
 
+    .project-div {
+      justify-content: center;
+    }
+
+    .project-div, .project-container {
+      width: 100%;
+    }
+
+    .project-title {
+      text-align: center;
+    }
+
+    .description {
+      min-width: 0;
+      text-align: center;
+    }
   }
 </style>

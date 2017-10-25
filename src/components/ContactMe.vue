@@ -92,10 +92,16 @@ export default {
 @media screen and (max-width: 500px) {
   .contact {
     padding: 20px 0;
+    font-size: 1.8rem;
   }
   .contact-me {
     padding-top: 0;
   }
+
+  .contact-form {
+    width: 100%;
+  }
+
 }
 
 </style>

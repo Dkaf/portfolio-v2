@@ -54,7 +54,7 @@ export default {
     text-decoration: underline;
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:770px) {
     .title {
       font-size: 5rem;
     }
