@@ -78,7 +78,9 @@ export default {
     display: flex;
     /* justify-content: center; */
     align-items: flex-start;
+    flex-flow: column;
   }
+
 
   /* @media screen and (max-width: 770px) {
     .project-section, .project-container {
