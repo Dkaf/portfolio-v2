@@ -27,7 +27,7 @@ export default {
   transition: height linear 1s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 770px) {
   .skill-bar {
     transform: rotate(90deg);
     margin-right: 100px;

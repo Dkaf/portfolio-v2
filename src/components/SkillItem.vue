@@ -26,7 +26,7 @@ export default {
   padding: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 770px) {
   .skill-item {
     flex-flow: row-reverse;
     justify-content: space-between;

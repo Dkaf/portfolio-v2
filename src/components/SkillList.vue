@@ -70,7 +70,7 @@ export default {
     align-items: flex-end;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 770px) {
     .skill-list {
       flex-flow: column;
       align-items: center;

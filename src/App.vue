@@ -109,7 +109,7 @@ body::-webkit-scrollbar-thumb {
   filter: blur(0px);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 770px) {
 
   .background-image {
     background-size: cover;
