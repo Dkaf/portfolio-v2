@@ -55,8 +55,6 @@ export default {
   }
 
   @media screen and (max-width:500px) {
-    .home-page {
-    }
     .title {
       font-size: 5rem;
     }
