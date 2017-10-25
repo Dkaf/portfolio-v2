@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 506 506">
+  <defs>
+    <style>
+      @keyframes offset {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      <!-- @keyframes color {
+        to {
+          stroke: #cab;
+        }
+      } -->
+
+      .cls-1 {
+        fill: none;
+        stroke: #3df5ff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        animation: offset 1s linear forwards;
+        <!-- animation: color 2.5s linear forwards; -->
+      }
+      #line-1 {
+        stroke-dasharray: 428.88;
+        stroke-dashoffset: 428.88; 
+      }
+      #line-2 {
+        stroke-dasharray: 295.614;
+        stroke-dashoffset: 295.614;
+      }
+      #circle {
+        stroke-dasharray: 1574.159;
+        stroke-dashoffset: 1574.159;
+      }
+    </style>
+  </defs>
+  <title>circle-svg</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="complete-circle">
+        <circle id="circle" class="cls-1" cx="253" cy="253" r="250.5"/>
+        <line id="line-2" class="cls-1" x1="329.29" y1="491.83" x2="503.5" y2="253"/>
+        <line id="line-1" class="cls-1" x1="380.62" y1="419.15" x2="6.39" y2="209.65"/>
+      </g>
+    </g>
+  </g>
+</svg>

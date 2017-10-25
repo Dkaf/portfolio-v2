@@ -1,0 +1,110 @@
+<template lang="pug">
+  .project-div
+    .project-container
+      h2.project-title {{ title }}
+      .img-container
+        img.screenshot(:src="screenshot.url", :alt="screenshot.alt")
+      .link-container
+        a.project-link(v-for="(url,type) in links", :key="type.id", :href="url") {{ type.toUpperCase() }}
+      .description-div
+        p.description {{ description }}
+    tool-list(:tools="tools")
+</template>
+
+<script>
+ import ToolList from './ToolList';
+  export default {
+    name: 'ProjectItem',
+    props: [
+      'title',
+      'tools',
+      'screenshot',
+      'links',
+      'description',
+      ],
+    components: {ToolList},
+  };
+</script>
+
+<style>
+  .project-div {
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .project-title {
+    color: #f45942;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .section-title {
+    margin: 0;
+  }
+
+  .link-container {
+    margin: 10px;
+    height: 40px;
+  }
+
+  .project-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: color ease-in-out .2s, font-size ease-in-out .2s;
+  }
+
+  .project-link:hover {
+    color: #f45942;
+    font-size: 1.3rem;
+  }
+  
+  .project-link:active {
+    color: white;
+  }
+
+  .description, .screenshot{
+    color: white;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    height: 300px;
+  }
+
+  .screenshot {
+    height: auto;
+    width: 400px;
+  }
+
+  .screenshot
+
+  .img-container {
+    position: relative;
+  }
+
+  @media screen and (max-width: 500px) {
+    .project-div, .project-container {
+      width: 100%;
+      align-items: center;
+    }
+
+    .project-div {
+      padding: 50px 0;
+      flex-flow: column;
+    }
+
+    .description-div {
+      text-align: center;
+    }
+  }
+
+</style>
