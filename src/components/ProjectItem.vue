@@ -28,16 +28,16 @@
 
 <style>
   .project-div {
-    width: 500px;
     padding: 50px;
     display: flex;
-    align-items: center;
+    flex-flow: row wrap;
   }
 
   .project-container {
     display: flex;
     flex-flow: column;
   }
+
 
   .project-title {
     color: #f45942;
@@ -77,7 +77,8 @@
 
   .description {
     font-size: 1.5rem;
-    height: 300px;
+    max-width: 500px;
+    min-width: 400px;
   }
 
   .screenshot {
@@ -91,7 +92,7 @@
     position: relative;
   }
 
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 770px) {
     .project-div, .project-container {
       width: 100%;
       align-items: center;
@@ -105,6 +106,6 @@
     .description-div {
       text-align: center;
     }
-  }
+  } */
 
 </style>

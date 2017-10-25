@@ -76,10 +76,11 @@ export default {
 <style>
   .project-section {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: flex-start;
   }
 
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 770px) {
     .project-section, .project-container {
       width: 100%;
     }
@@ -87,6 +88,6 @@ export default {
       flex-flow: column;
       align-items: center;
     }
-  }
+  } */
 </style>
 
