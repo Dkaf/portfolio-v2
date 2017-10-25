@@ -57,6 +57,7 @@ export default {
   @media screen and (max-width:770px) {
     .title {
       font-size: 5rem;
+      line-height: 100px;
     }
     .title-container, .title {
       width: 100%;
