@@ -24,13 +24,13 @@ export default {
 </script>
 
 <style>
-  .about-me {
-    display: flex;
-    justify-content: space-between;
-  }
+
 
   .section-div {
     padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
 
   .info-container {
@@ -53,7 +53,7 @@ export default {
     font-weight: normal;
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:770px) {
     .about-me, .info-container, .section-div {
       width: 100%;
     }
