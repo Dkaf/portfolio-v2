@@ -79,6 +79,7 @@ export default {
 
     .info-container p {
       padding: 30px 0;
+      width: auto;
     }
 
   }
