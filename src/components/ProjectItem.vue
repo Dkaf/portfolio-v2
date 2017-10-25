@@ -92,20 +92,10 @@
     position: relative;
   }
 
-  /* @media screen and (max-width: 770px) {
-    .project-div, .project-container {
-      width: 100%;
-      align-items: center;
+  @media screen and (min-width: 770px) {
+    .project-container:nth-of-type(even) {
+      align-self: flex-end;
     }
 
-    .project-div {
-      padding: 50px 0;
-      flex-flow: column;
-    }
-
-    .description-div {
-      text-align: center;
-    }
-  } */
-
+  }
 </style>
