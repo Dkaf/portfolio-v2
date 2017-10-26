@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb {
   .background-image {
     background-size: cover;
     bottom: 0;
+    height: 100vh;
   }
 }
 
