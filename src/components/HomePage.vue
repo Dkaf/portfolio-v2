@@ -61,6 +61,7 @@ export default {
     }
     .title-container, .title {
       width: 100%;
+      align-self: flex-start;
     }
   }
 
