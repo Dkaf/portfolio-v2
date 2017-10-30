@@ -1,5 +1,5 @@
 <template lang="pug">
-  .skills
+  .skills.section-div
     .skill-container
       h3.subtitle Skills
       div.skill-list
@@ -48,7 +48,7 @@ export default {
   props: ['scrollPos'],
   methods: {
     skillHandler() {
-      if (this.scrollPos > 900) {
+      if (this.scrollPos > 1400) {
         return true;
       }
     },
