@@ -3,6 +3,7 @@
     .background-image(:style="{filter: filter, opacity: opacity}")
     home-page
     about-me(:scrollPos="scrollPos")
+    skill-list(:scrollPos="scrollPos")
     project-section
     contact-me
     <!-- <router-view/> -->
@@ -11,18 +12,20 @@
 <script>
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
+import SkillList from './components/SkillList';
 import ProjectSection from './components/ProjectSection';
 import ContactMe from './components/ContactMe';
 
 export default {
   name: 'app',
-  components: {HomePage, AboutMe, ProjectSection, ContactMe},
+  components: {HomePage, AboutMe, SkillList, ProjectSection, ContactMe},
   data: function() {
     return {
           scrollPos: 0,
           blur: 0,
           filter: '',
           opacity: .5,
+          mobile: false,
     };
   },
   methods: {
@@ -47,6 +50,7 @@ export default {
     },
   },
   created: function() {
+    if (window.screen.width > 770);
     window.addEventListener('scroll', this.scrollHandler);
   },
 };
