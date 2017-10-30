@@ -91,12 +91,7 @@
   .img-container {
     position: relative;
   }
-
-  @media screen and (min-width: 770px) {
-    .project-container:nth-of-type(even) {
-      align-self: flex-end;
-    }
-  }
+  
   @media screen and (max-width: 770px) {
     .project-container {
       align-items: center;
