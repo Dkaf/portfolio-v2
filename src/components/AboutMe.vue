@@ -11,14 +11,11 @@
           | but I also write backend code with Node.js and MongoDB databases.     
           | When I'm not coding, I can usually be found learning more about blockchain, 
           | playing indie games or searching YouTube for hidden gems.
-    skill-list(:scrollPos="scrollPos")
 </template>
 
 <script>
-import SkillList from './SkillList';
 export default {
   name: 'AboutMe',
-  components: {SkillList},
   props: ['scrollPos'],
 };
 </script>
